@@ -1,0 +1,54 @@
+#TitlePage h2{
+    margin:0px;
+    padding: 32px;
+    text-align: center;
+}
+:root{
+    --black: #000000ff;
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffffffff;
+}
+#TitlePage{
+    background-color: var(--oxford-blue);
+    color:var(--orange-web)
+}
+body,html{
+    padding:0px;
+    margin: 0px;
+    font-family: quicksand;
+    background-color: var(--platinum);
+}
+#EnterUrl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#TakeInput{
+    background-color: white;
+    padding: 4px;
+    margin-top: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items:center ;
+    box-shadow: 2px 2px 2px rgb(72, 68, 68);
+}
+#inputUrl{
+    border: none;
+    font-family: quicksand;
+    font-size: large;
+}
+#submitButton{
+    outline:none;
+    background-color: green;
+    border-radius: 8px;
+    color:antiquewhite;
+    font-family: montserrat;
+}
+#outcomeTag{
+    text-align: center;
+}

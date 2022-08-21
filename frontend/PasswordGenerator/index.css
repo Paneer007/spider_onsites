@@ -1,0 +1,59 @@
+:root{
+    --black: #000000ff;
+--oxford-blue: #14213dff;
+--orange-web: #fca311ff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff;
+}
+body,html{
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: montserrat;
+    background-color: var(--platinum);
+}
+#passwordGeneratorTitle h2{
+    padding: 16px;
+    margin: 0px;
+    background-color: var(--oxford-blue);
+    color: var(--platinum);
+    text-align: center;
+}
+#TheMainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#TakeInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+#inputVal{
+    width: 400px;
+    border: none;
+    font-family: montserrat;
+    padding:8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(125, 121, 121);
+    margin-bottom: 8px;
+}
+label{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+#submitButton{
+    background-color: var(--orange-web);
+    border-radius: 8px;
+    font-family: quicksand;
+    font-size: large;
+}
+#passwordStuff{
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+:root{
+    --black: #000000ff;
+--oxford-blue: #14213dff;
+--orange-web: #fca311ff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff;
+}
+body,html{
+    padding:0px;
+    margin: 0px;
+    font-family: quicksand;
+}
+#GitHubTitle h2{
+    padding: 32px;
+    margin: 0px;
+    text-align: center;
+    font-size: large;
+    background-color: var(--oxford-blue);
+    color:var(--orange-web)
+}
+#TheMainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#TakeInput{
+    margin: 8px;
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(64, 62, 62);
+    padding: 4px;
+    border-radius: 8px;
+    gap:8px;
+    width: 50%;
+    justify-content: space-between;
+}
+#TakeInput input{
+    border:none;
+    font-family: quicksand;
+    width: 100%;
+}
+#submitButtonUser,#submitButtonRepo{
+    background-color: var(--platinum);
+    border:none;
+    font-family: quicksand;
+}
+#SearchedProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.CardTypeOfInput{
+    padding:8px;
+    background-color: var(--oxford-blue);
+    color:white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(64, 62, 62);
+    width: 25vw;
+}
+.UsernameCard,.followTag{
+    color:orange;
+    font-weight: 600;
+}
